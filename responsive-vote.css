@@ -1,0 +1,71 @@
+@media screen and (max-width: 799px) {
+    :root {
+        overflow-x: hidden;
+    }
+
+    body {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        max-width: 799px;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+    main {
+        position: static;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    main h1 {
+        font-size: 25px;
+    }
+
+    #app {
+        width: 90vw;
+        height: 270px;
+        padding: 0;
+        margin-top: -400px;
+        margin-left: -240px;
+      }
+
+    #app h2 {
+        margin-top: 0;
+    }
+
+    #app input {
+        margin-top: -5px;
+        width: 60vw;
+      }
+
+    .btn-6 {
+        width: 80vw;
+        height: 70px;
+        margin-top: -80px;
+        margin-left: 15px;
+    }
+
+    #vote-display {
+        position: absolute;
+        width: 90vw;
+        top: 280px;
+        left: 0px;
+    }
+
+    #vote-display-content {
+        height: 200px;
+    }
+
+    #vote-display-content .btn-6 {
+        margin-top: -20px;
+    }
+
+    #vote-statistics {
+        font-size: 18px;
+    }
+
+}

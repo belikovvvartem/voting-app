@@ -90,7 +90,7 @@ body {
   }
 
   #vote-code {
-    user-select: all;
+    user-select: text;
     width: 400px;
     padding: 20px;
     margin-top: 30px;

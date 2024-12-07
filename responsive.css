@@ -20,9 +20,23 @@
     }
 
     .content {
+        width: 80vw;
+    }
+
+    #app {
+        width: 80vw;
+    }
+
+    #app button.home, #button-home {
         width: 90vw;
     }
 
-@media screen and (min-width: 800px) and (max-width: 1000px) {
+    #app input {
+        width: 65vw;
+    }
+
+    #vote-code {
+        width: 80vw;
+    }
 
 }
