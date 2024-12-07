@@ -1,0 +1,28 @@
+@media screen and (max-width: 799px) {
+    :root {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    body {
+        text-align: center;
+        width: 100%;
+        max-width: 799px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    main {
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .content {
+        width: 90vw;
+    }
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+
+}
